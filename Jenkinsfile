@@ -4,10 +4,7 @@ pipeline {
     stage('staging') {
       steps {
         echo 'yo'
-        dir(path: '/') {
-          timestamps()
-        }
-
+        dir(path: '/')
       }
     }
   }
