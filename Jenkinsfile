@@ -4,7 +4,6 @@ pipeline {
     stage('staging') {
       steps {
         echo 'yo'
-        dir(path: '/')
       }
     }
   }
